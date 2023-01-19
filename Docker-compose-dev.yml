@@ -11,7 +11,7 @@ services:
       - .:/app
   tests:
     build:
-      context: .    #current directory
+      context: .
       dockerfile: Dockerfile.dev
     volumes:
       - /app/node_modules
